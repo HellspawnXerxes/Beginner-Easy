@@ -9,6 +9,10 @@ int main()
     {
         int x, y, d;
         cin >> x >> y >> d;
+        if(x-y <= d)
+            cout << "Yes" << endl;
+        else
+            cout << "No" << endl;
     }
 
 
